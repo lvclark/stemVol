@@ -5,6 +5,8 @@ stemVol <- function(len, diam){
   #   diam and len should be in the same units.
   # A numeric vector is returned indicating the volume of each
   # stem, assuming a perfect cylinder.
+  
+  ## test change ###
   if(length(len) != length(diam)){
     stop("len and diam must be vectors of equal length.")
   }
